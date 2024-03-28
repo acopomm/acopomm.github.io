@@ -28,4 +28,6 @@ body {
   align-content: center;
   justify-content: center;
   gap: 5px
+  background-color:  rgba(33, 32, 32, 0.3)
+  
 }
