@@ -10,4 +10,24 @@ body {
   p {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 200px;
+
+    
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
