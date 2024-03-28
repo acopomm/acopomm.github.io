@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(241, 240, 230);
+  }
+  
+  h1 {
+    color: rgb(33, 32, 32);
+    text-align: center;
+  }
+  
+  p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+  }
