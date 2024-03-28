@@ -23,7 +23,11 @@ body {
   padding: 40px;
 }
 
-.content{}
+.content{
+  height: 600px;
+  background-color: rgba(52, 49, 49, 0.599);
+border-radius: 5px;
+}
 
 .flex{
   display: flex;
