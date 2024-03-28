@@ -12,26 +12,20 @@ body {
     font-size: 20px;    
   }
 
-.grid-container{
-  width: 100%;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 20px
-}
-
-.grid-item{
-  padding: 40px;
-}
-
-.item{
-  height: 60px;
-  background-color: rgba(52, 49, 49, 0.599);
-border-radius: 5px;
-}
-
-.flex{
+.container{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
   justify-content: center;
+  gap: 20px
+}
+
+.item-flex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 5px
 }
