@@ -29,7 +29,13 @@ body {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  gap: 5px
+  gap: 5px;
   background-color:  rgba(33, 32, 32, 0.3)
   
+}
+
+.button{
+padding: 10px 10px;
+border-radius: 12px;
+background-color: rgba(0, 0, 0, 0.092);
 }
