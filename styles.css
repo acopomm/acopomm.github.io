@@ -7,13 +7,13 @@ body {
     text-align: center;
     line-height: 20vh;
     font-family: Helvetica, Arial, sans-serif;
-    
+
   }
   
   p {
     font-family: Helvetica, Arial, sans-serif;
-    line-height: 15vh;
-    text-align: center;    
+    text-align: center;
+    line-height: 100%;    
   }
 
   img{
