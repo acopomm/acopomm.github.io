@@ -5,11 +5,17 @@ body {
   h1 {
     color: rgb(33, 32, 32);
     text-align: center;
+    line-height: 20vh;
   }
   
   p {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;    
+    font-size: 15vh;    
+  }
+
+  img{
+    height: 25vh;
+    width: auto;
   }
 
 .centerer{
@@ -41,7 +47,4 @@ body {
   
 }
 
-img{
-  height: 25vh;
-  width: auto;
-}
+
