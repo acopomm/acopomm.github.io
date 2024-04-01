@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 230, 0);
+    background-color: rgb(235, 235, 221);
   }
   
   h1 {
@@ -13,7 +13,10 @@ body {
   }
 
 .centerer{
-
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center
 }
 
 .container{
@@ -23,11 +26,6 @@ body {
   align-content: center;
   justify-content: center;
   gap: 20px;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  margin: auto;
   padding: center;
   
 }
