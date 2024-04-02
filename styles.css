@@ -6,7 +6,7 @@ body {
     color: rgb(33, 32, 32);
     text-align: center;
     line-height: 15vh;
-    font-size: 10vh;
+    font-size: 9vh;
     font-family: Helvetica, Arial, sans-serif;
 
   }
@@ -14,7 +14,8 @@ body {
   p {
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
-    line-height: 8vh;    
+    line-height: 8vh;
+    font-size: 6vh;    
   }
 
   img{
