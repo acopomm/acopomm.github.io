@@ -5,7 +5,8 @@ body {
   h1 {
     color: rgb(33, 32, 32);
     text-align: center;
-    line-height: 20vh;
+    line-height: 15vh;
+    font-size: 100%;
     font-family: Helvetica, Arial, sans-serif;
 
   }
