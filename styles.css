@@ -38,7 +38,7 @@ body {
   align-content: center;
   justify-content: space-around;
   padding: center;
-  width: 70vw;
+  gap: 10vw;
 
 }
 
