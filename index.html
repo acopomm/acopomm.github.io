@@ -10,20 +10,20 @@
 
 <body>
 <h1><strong>This is a Heading!!!</strong></h1>
-<p id="thanku" style="font-size: 3vh; line-height: 5vh;">Thank You! &#128516;</p>
+<p id="thanku" style="font-size: 3vh; line-height: 5vh; opacity: 0;">Thank You! &#128516;</p>
 
 <div class="centerer">
 <div class="container">
 <div class="item-flex">
-  <img src="eepy1.png" role="button" onclick="tymsg()"> 
+  <img src="eepy1.png" role="button" onclick="tymsg() ; msgchange('Good')"> 
   <p>Good</p>
 </div>
 <div class="item-flex">
-  <img src="eepy2.png" onclick="alert('I am an alert box!')">
+  <img src="eepy2.png" role="button" onclick="tymsg() ; msgchange('Ok')">
   <p>Okay</p>
 </div>
 <div class="item-flex">
-  <img src="eepy3.png">
+  <img src="eepy3.png" role="button" onclick="tymsg() ; msgchange('Bad')">
   <p>Bad</p>
 </div>
 </div>
