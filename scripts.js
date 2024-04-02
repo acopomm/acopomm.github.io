@@ -4,8 +4,10 @@ function tymsg() {
       document.getElementById("thanku").style.opacity = "0"
     }, 1000)
   }
+
 {
-  var d = new Date();
+  var d = new Date()
+  month = d.get
 }
 
 function rating(r) {
