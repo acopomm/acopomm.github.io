@@ -1,6 +1,6 @@
 function tymsg() { 
-    document.getElementById("thanku").innerHTML = "Thank You! &#128516;";
+    document.getElementById("thanku").style.opacity = "100";
     setTimeout(() => {
-      document.getElementById("thanku").innerHTML = ""
+      document.getElementById("thanku").style.opacity = "0"
     }, 1000)
   }
