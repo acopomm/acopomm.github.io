@@ -17,13 +17,6 @@ function rating(r) {
   return r
 }
 
-function msgchange(a){
-  document.getElementById("rating").innerHTML = a
-  document.getElementById("day").innerHTML = day
-  document.getElementById("month").innerHTML = month
-  document.getElementById("year").innerHTML = year
-  document.getElementById("time").innerHTML = time
-}
 
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
