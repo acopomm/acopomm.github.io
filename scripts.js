@@ -24,3 +24,12 @@ function msgchange(a){
   document.getElementById("year").innerHTML = year
   document.getElementById("time").innerHTML = time
 }
+
+<form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbz_-XWAgqAsp_kCxu_8RW4FcBw2d89JAaqemGZWiDatW9HS2HB2F1fN1lOtVltMDsu-/exec"
+>
+  <input name="Day" type="email" placeholder="Email" required>
+  <input name="Name" type="text" placeholder="Name" required>
+  <button type="submit">Send</button>
+</form>
