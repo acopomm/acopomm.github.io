@@ -16,15 +16,15 @@
 <div class="centerer">
 <div class="container">
 <div class="item-flex">
-  <img src="img_good.png" role="button" onclick="tymsg()"> 
+  <img src="img_good.png" role="button" onclick="tymsg() ; rate('Excellent')"> 
   <p>Excellent</p>
 </div>
 <div class="item-flex">
-  <img src="img_ok.png" role="button" onclick="tymsg()">
+  <img src="img_ok.png" role="button" onclick="tymsg() ; rate('Good')">
   <p>Good</p>
 </div>
 <div class="item-flex">
-  <img src="img_bad.png" role="button" onclick="tymsg()">
+  <img src="img_bad.png" role="button" onclick="tymsg() ; rate('Average')">
   <p>Average</p>
 </div>
 </div>
@@ -37,6 +37,7 @@
   display="none"
 >
   <input id="rating" name="Excellent" type="text" placeholder="Excellent">
-
+  <input id="rating" name="Good" type="text" placeholder="Good">
+  <input id="rating" name="Average" type="text" placeholder="Average">
   <button type="submit">Send</button>
 </form>

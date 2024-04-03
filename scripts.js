@@ -17,7 +17,10 @@ function rating(r) {
   return r
 }
 
-
+function rate(a) {
+  document.getElementById(a).value="1"
+  document.getElementById('dataform').submit();
+}
 
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
