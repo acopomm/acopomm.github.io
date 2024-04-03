@@ -36,7 +36,7 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      msgchange();
+      tymsg();
     })
   });
 });
