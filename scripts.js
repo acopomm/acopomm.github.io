@@ -18,8 +18,9 @@ function rating(r) {
 }
 
 function rate(a) {
+  document.getElementById("dataform").reset();
   document.getElementById(a).value="1"
-  document.getElementById('dataform').submit();
+  document.getElementById('submitbutton').click();
 }
 
 window.addEventListener("load", function() {
