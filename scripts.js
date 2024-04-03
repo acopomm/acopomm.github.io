@@ -18,6 +18,7 @@ function rating(r) {
 }
 
 
+
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
   form.addEventListener("submit", function(e) {
