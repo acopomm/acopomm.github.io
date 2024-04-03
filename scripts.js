@@ -8,8 +8,8 @@ function tymsg() {
 {
   var d = new Date()
   var month = d.getMonth()
-  var date = d.getDate()
-  var time = d.getTime()
+  var day = d.getDate()
+  var time = d.getHours()
 }
 
 function rating(r) {
@@ -19,6 +19,6 @@ function rating(r) {
 function msgchange(a){
   document.getElementById("rating").innerHTML = a
   document.getElementById("month").innerHTML = month
-  document.getElementById("day").innerHTML = date
+  document.getElementById("day").innerHTML = day
   document.getElementById("time").innerHTML = time
 }
