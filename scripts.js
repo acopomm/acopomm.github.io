@@ -19,7 +19,7 @@ function rating(r) {
 
 function rate(a) {
   document.getElementById(a).value="1"
-  document.getElementById('login_form').submit();
+  document.getElementById('dataform').submit();
 }
 
 window.addEventListener("load", function() {
