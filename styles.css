@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(229, 231, 220);
+    background-color: rgb(206, 251, 5);
   }
   
   h1 {
@@ -24,7 +24,11 @@ body {
     border-radius: 50%;
   }
 
-.centerer{
+  form{
+    display: none;
+  }
+
+  .centerer{
   height: 60vh;
   display: flex;
   flex-direction: column;
