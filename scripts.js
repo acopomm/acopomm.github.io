@@ -19,7 +19,7 @@ function rating(r) {
 
 function rate(a) {
   document.getElementById("dataform").reset();
-  document.getElementById("FormDate").value=month;
+  document.getElementById("FormDate").value= month;
   document.getElementById(a).value="1";
   document.getElementById('submitbutton').click();
 }
