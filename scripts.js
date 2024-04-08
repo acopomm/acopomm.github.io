@@ -19,11 +19,12 @@ function rating(r) {
 
 function rate(a) {
   document.getElementById("dataform").reset();
-  document.getElementById(a).value="1"
+  document.getElementById("FormDate").value=month;
+  document.getElementById(a).value="1";
   document.getElementById('submitbutton').click();
 }
 
-"""
+
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
   form.addEventListener("submit", function(e) {
@@ -39,4 +40,3 @@ window.addEventListener("load", function() {
     })
   });
 });
-"""
