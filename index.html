@@ -16,20 +16,22 @@
 <div class="centerer">
 <div class="container">
 <div class="item-flex">
-  <img src="img_good.png" role="button" onclick="rate('Excellent')"> 
+  <img src="img_good.png" role="button" onclick="rate('2')"> 
   <p>Excellent</p>
 </div>
 <div class="item-flex">
-  <img src="img_ok.png" role="button" onclick="rate('Good')">
+  <img src="img_ok.png" role="button" onclick="rate('3')">
   <p>Good</p>
 </div>
 <div class="item-flex">
-  <img src="img_bad.png" role="button" onclick="rate('Average')">
+  <img src="img_bad.png" role="button" onclick="rate('4')">
   <p>Average</p>
 </div>
 </div>
 </div>
-
+<div style="width:200px; height:200px; position: relative">
+  <div style="font-size: 0.1vh text-align:right; position:absolute; bottom:0; right:0; ">V 2.0.0</div>
+</div>
 
 <form 
   method="POST" 
@@ -37,9 +39,7 @@
   id="dataform"
 >
   <input id="FormDate" name="Date" type="text">
-  <input id="Excellent" name="Excellent" type="number" placeholder="Excellent">
-  <input id="Good" name="Good" type="number" placeholder="Good">
-  <input id="Average" name="Average" type="number" placeholder="Average">
+  <input id="Rating" name="Rating" type="number" placeholder="0">
   <button id="submitbutton" type="submit">Send</button>
 </form>
 </div>

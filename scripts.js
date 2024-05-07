@@ -5,22 +5,20 @@ function tymsg() {
     }, 1000)
   }
 
-{
+/*{
   var d = new Date()
   var day = d.getDate()
   var month = d.getMonth()
   var year = d.getFullYear()  
   var time = d.getHours()
-}
+}*/
 
-function rating(r) {
-  return r
-}
+
 
 function rate(a) {
   document.getElementById("dataform").reset();
-  document.getElementById("FormDate").value="BALAGA";
-  document.getElementById(a).value="1";
+  document.getElementById("FormDate").value="temp";
+  document.getElementById("Rating").value="a";
   document.getElementById('submitbutton').click();
 }
 
