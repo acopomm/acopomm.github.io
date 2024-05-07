@@ -18,7 +18,7 @@ function tymsg() {
 function rate(a) {
   document.getElementById("dataform").reset();
   document.getElementById("FormDate").value="temp";
-  document.getElementById("Rating").value="a";
+  document.getElementById("Rating").value=a;
   document.getElementById('submitbutton').click();
 }
 
