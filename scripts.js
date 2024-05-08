@@ -5,19 +5,20 @@ function tymsg() {
     }, 1000)
   }
 
-/*{
+{
   var d = new Date()
   var day = d.getDate()
   var month = d.getMonth()
   var year = d.getFullYear()  
   var time = d.getHours()
-}*/
+}
 
 
 
 function rate(a) {
   document.getElementById("dataform").reset();
-  document.getElementById("FormDate").value="temp";
+  document.getElementById("FormDate").value= day+month+year;
+  document.getElementById("FormDate").value= time+":00";
   document.getElementById("Rating").value=a;
   document.getElementById('submitbutton').click();
 }
