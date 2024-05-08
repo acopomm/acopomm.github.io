@@ -5,17 +5,16 @@ function tymsg() {
     }, 1000)
   }
 
-{
-  var d = new Date()
-  var day = d.getDate()
-  var month = d.getMonth()
-  var year = d.getFullYear()  
-  var time = d.getHours()
-}
+
 
 
 
 function rate(a) {
+  var d = new Date();
+  var day = d.getDate();
+  var month = d.getMonth();
+  var year = d.getFullYear();
+  var time = d.getHours();
   document.getElementById("dataform").reset();
   document.getElementById("FormDate").value= month+"/"+day+"/"+year;
   document.getElementById("FormTime").value= time+":00";
