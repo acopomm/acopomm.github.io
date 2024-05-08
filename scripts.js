@@ -17,13 +17,13 @@ function tymsg() {
 
 function rate(a) {
   document.getElementById("dataform").reset();
-  document.getElementById("FormDate").value= day+month+year;
+  document.getElementById("FormDate").value= day+"/"+month+"/"+year;
   document.getElementById("FormTime").value= time+":00";
   document.getElementById("Rating").value=a;
   document.getElementById('submitbutton').click();
 }
 
-
+/*
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
   form.addEventListener("submit", function(e) {
@@ -39,3 +39,4 @@ window.addEventListener("load", function() {
     })
   });
 });
+*/
