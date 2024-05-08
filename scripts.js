@@ -23,7 +23,7 @@ function rate(a) {
   document.getElementById('submitbutton').click();
 }
 
-/*
+
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
   form.addEventListener("submit", function(e) {
@@ -39,4 +39,3 @@ window.addEventListener("load", function() {
     })
   });
 });
-*/
