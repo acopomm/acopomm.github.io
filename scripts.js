@@ -1,13 +1,11 @@
 function tymsg() { 
     document.getElementById("thanku").style.opacity = "100";
+    document.getElementById("myDIV").style.backgroundColor = "#c3fa87"
     setTimeout(() => {
       document.getElementById("thanku").style.opacity = "0"
+      document.getElementById("myDIV").style.backgroundColor = rgb(242, 244, 235)
     }, 1000)
   }
-
-
-
-
 
 function rate(a) {
   var d = new Date();
@@ -23,6 +21,11 @@ function rate(a) {
   tymsg();
 }
 
+<script>
+function colorchange(color) {
+  document.getElementById("myDIV").style.backgroundColor = color;
+}
+</script>
 
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
