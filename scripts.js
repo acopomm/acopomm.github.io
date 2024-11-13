@@ -1,9 +1,9 @@
 function tymsg() { 
     document.getElementById("thanku").style.opacity = "100";
-    document.getElementById("myDIV").style.backgroundColor = "#c3fa87"
+    document.getElementById("body").style.backgroundColor = "#c3fa87"
     setTimeout(() => {
       document.getElementById("thanku").style.opacity = "0"
-      document.getElementById("myDIV").style.backgroundColor = rgb(242, 244, 235)
+      document.getElementById("body").style.backgroundColor = "#f2f4eb"
     }, 1000)
   }
 
