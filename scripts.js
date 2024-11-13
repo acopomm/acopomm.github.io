@@ -1,9 +1,9 @@
 function tymsg() { 
     document.getElementById("thanku").style.opacity = "100";
-    document.getElementById("body").style.backgroundColor = "#c3fa87"
+    document.body.style.background = linear-gradient(#f2f4eb, #adeb9d)
     setTimeout(() => {
       document.getElementById("thanku").style.opacity = "0"
-      document.getElementById("body").style.backgroundColor = "#f2f4eb"
+      document.body.style.background = "#f2f4eb"
     }, 1000)
   }
 
