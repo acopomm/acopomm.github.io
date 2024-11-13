@@ -3,7 +3,7 @@ function tymsg() {
     document.body.style.background = linear-gradient(#f2f4eb, #adeb9d);
     setTimeout(() => {
       document.getElementById("thanku").style.opacity = "0";
-      document.body.style.background = "#f2f4eb";
+      document.body.style.background = "#f2f4eb"
     }, 1000)
   }
 
@@ -17,15 +17,10 @@ function rate(a) {
   document.getElementById("FormDate").value= month+"/"+day+"/"+year;
   document.getElementById("FormTime").value= time+":00";
   document.getElementById("Rating").value=a;
-  document.getElementById('submitbutton').click()
-  tymsg();
+  document.getElementById('submitbutton').click();
+  tymsg()
 }
 
-<script>
-function colorchange(color) {
-  document.getElementById("myDIV").style.backgroundColor = color;
-}
-</script>
 
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
