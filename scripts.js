@@ -1,6 +1,6 @@
 function tymsg() { 
   document.getElementById("thanku").style.opacity = "100";
-  document.body.style.backgroundColor= "green";
+  document.body.style.backgroundColor= 'linear-gradient(to right, #ff7e5f, #feb47b)';
   setTimeout(() => {
     document.getElementById("thanku").style.opacity = "0";
     document.body.style.backgroundColor= "rgb(242, 244, 235)";
