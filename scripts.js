@@ -1,5 +1,6 @@
 function tymsg() { 
   document.getElementById("thanku").style.opacity = "100";
+  document.body.style.backgroundColor= "green";
   setTimeout(() => {
     document.getElementById("thanku").style.opacity = "0"
   }, 1000)
@@ -30,7 +31,7 @@ form.addEventListener("submit", function(e) {
     body: data,
   })
   .then(() => {
-    tymsg();
+  
   })
 });
 });
