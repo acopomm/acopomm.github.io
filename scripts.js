@@ -3,7 +3,7 @@ function tymsg() {
   document.body.style.backgroundImage = 'linear-gradient(rgba(145, 250, 162,0) 85%, rgba(145, 250, 162,1))';
   setTimeout(() => {
     document.getElementById("thanku").style.opacity = "0";
-    document.body.style.backgroundColor= "rgb(242, 244, 235)";
+    document.body.style.backgroundImage = 'linear-gradient(rgba(145, 250, 162,0) 85%, rgba(145, 250, 162,0))';
   }, 1000)
 }
 
