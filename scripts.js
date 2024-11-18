@@ -2,7 +2,8 @@ function tymsg() {
   document.getElementById("thanku").style.opacity = "100";
   document.body.style.backgroundColor= "green";
   setTimeout(() => {
-    document.getElementById("thanku").style.opacity = "0"
+    document.getElementById("thanku").style.opacity = "0";
+    document.body.style.backgroundColor= rgb(242, 244, 235);
   }, 1000)
 }
 
