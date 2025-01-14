@@ -14,7 +14,9 @@ var month = d.getMonth()+1;
 var year = d.getFullYear();
 var time = d.getHours();
 document.getElementById("dataform").reset();
-document.getElementById("FormDate").value= month+"/"+day+"/"+year;
+document.getElementById("FormDay").value= day;
+document.getElementById("FormMonth").value= month;
+document.getElementById("FormYear").value= year;
 document.getElementById("FormTime").value= time+":00";
 document.getElementById("Rating").value=a;
 document.getElementById('submitbutton').click()
