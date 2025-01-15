@@ -21,7 +21,7 @@ document.getElementById("Rating").value=a;
 document.getElementById('submitbutton').click()
 tymsg();
 }
-
+/*
 window.addEventListener("load", function() {
 const form = document.getElementById('dataform');
 form.addEventListener("submit", function(e) {
@@ -32,8 +32,7 @@ form.addEventListener("submit", function(e) {
     method: 'POST',
     body: data,
   })
-  .then(() => {
-  
-  })
+  .then(() => {})
 });
 });
+*/
